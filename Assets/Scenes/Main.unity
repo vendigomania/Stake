@@ -232,6 +232,7 @@ GameObject:
   - component: {fileID: 12487223}
   - component: {fileID: 12487225}
   - component: {fileID: 12487224}
+  - component: {fileID: 12487226}
   m_Layer: 5
   m_Name: On - Text (TMP)
   m_TagString: Untagged
@@ -308,9 +309,9 @@ MonoBehaviour:
   m_fontSize: 96
   m_fontSizeBase: 96
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 96
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -355,6 +356,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12487222}
   m_CullTransparentMesh: 1
+--- !u!114 &12487226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12487222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Music On
+    _localeSets:
+    - language: 10
+      text: Music On
+    - language: 28
+      text: "M\xFAsica ativada"
 --- !u!1 &21948594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2089,6 +2109,20 @@ MonoBehaviour:
   image: {fileID: 902908164}
   costContainer: {fileID: 650427269}
   costLable: {fileID: 771944659}
+  equipedStatusLocale:
+    _default: Equiped
+    _localeSets:
+    - language: 10
+      text: Equiped
+    - language: 28
+      text: Equipado
+  unEquipedStatusLocale:
+    _default: Unequiped
+    _localeSets:
+    - language: 10
+      text: Unequiped
+    - language: 28
+      text: Desequipado
   statusText: {fileID: 256084145}
 --- !u!114 &216838932
 MonoBehaviour:
@@ -5018,6 +5052,7 @@ GameObject:
   - component: {fileID: 500131443}
   - component: {fileID: 500131445}
   - component: {fileID: 500131444}
+  - component: {fileID: 500131446}
   m_Layer: 5
   m_Name: Title - Text (TMP) (1)
   m_TagString: Untagged
@@ -5141,6 +5176,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500131442}
   m_CullTransparentMesh: 1
+--- !u!114 &500131446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500131442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Fields
+    _localeSets:
+    - language: 10
+      text: Fields
+    - language: 28
+      text: Campos
 --- !u!1 &510502757
 GameObject:
   m_ObjectHideFlags: 0
@@ -5393,6 +5447,7 @@ GameObject:
   - component: {fileID: 535964081}
   - component: {fileID: 535964083}
   - component: {fileID: 535964082}
+  - component: {fileID: 535964084}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -5516,6 +5571,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535964080}
   m_CullTransparentMesh: 1
+--- !u!114 &535964084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535964080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Back
+    _localeSets:
+    - language: 10
+      text: Back
+    - language: 28
+      text: Voltar
 --- !u!1 &568914348
 GameObject:
   m_ObjectHideFlags: 0
@@ -7086,6 +7160,20 @@ MonoBehaviour:
   image: {fileID: 1201776056}
   costContainer: {fileID: 127102816}
   costLable: {fileID: 141350936}
+  equipedStatusLocale:
+    _default: Equiped
+    _localeSets:
+    - language: 10
+      text: Equiped
+    - language: 28
+      text: Equipado
+  unEquipedStatusLocale:
+    _default: Unequiped
+    _localeSets:
+    - language: 10
+      text: Unequiped
+    - language: 28
+      text: Desequipado
   statusText: {fileID: 2033047875}
 --- !u!114 &694384961
 MonoBehaviour:
@@ -7686,6 +7774,7 @@ GameObject:
   - component: {fileID: 753430118}
   - component: {fileID: 753430120}
   - component: {fileID: 753430119}
+  - component: {fileID: 753430121}
   m_Layer: 5
   m_Name: Title - Text (TMP) (1)
   m_TagString: Untagged
@@ -7809,6 +7898,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753430117}
   m_CullTransparentMesh: 1
+--- !u!114 &753430121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753430117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Skins
+    _localeSets:
+    - language: 10
+      text: Skins
+    - language: 28
+      text: Peles
 --- !u!1 &754049962
 GameObject:
   m_ObjectHideFlags: 0
@@ -7904,6 +8012,7 @@ GameObject:
   - component: {fileID: 762900099}
   - component: {fileID: 762900101}
   - component: {fileID: 762900100}
+  - component: {fileID: 762900102}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -7980,9 +8089,9 @@ MonoBehaviour:
   m_fontSize: 112
   m_fontSizeBase: 112
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 112
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -8027,6 +8136,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762900098}
   m_CullTransparentMesh: 1
+--- !u!114 &762900102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762900098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Shop
+    _localeSets:
+    - language: 10
+      text: Shop
+    - language: 28
+      text: Comprar
 --- !u!1 &771944657
 GameObject:
   m_ObjectHideFlags: 0
@@ -8497,6 +8625,7 @@ GameObject:
   - component: {fileID: 831350545}
   - component: {fileID: 831350547}
   - component: {fileID: 831350546}
+  - component: {fileID: 831350548}
   m_Layer: 5
   m_Name: Title - Text (TMP) (1)
   m_TagString: Untagged
@@ -8573,9 +8702,9 @@ MonoBehaviour:
   m_fontSize: 55
   m_fontSizeBase: 55
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 55
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -8620,6 +8749,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831350544}
   m_CullTransparentMesh: 1
+--- !u!114 &831350548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831350544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Flags
+    _localeSets:
+    - language: 10
+      text: Flags
+    - language: 28
+      text: Bandeiras
 --- !u!1 &831645368
 GameObject:
   m_ObjectHideFlags: 0
@@ -11617,6 +11765,7 @@ GameObject:
   - component: {fileID: 1133167718}
   - component: {fileID: 1133167720}
   - component: {fileID: 1133167719}
+  - component: {fileID: 1133167721}
   m_Layer: 5
   m_Name: Title - Text (TMP)
   m_TagString: Untagged
@@ -11693,9 +11842,9 @@ MonoBehaviour:
   m_fontSize: 112
   m_fontSizeBase: 112
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 112
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -11740,6 +11889,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133167717}
   m_CullTransparentMesh: 1
+--- !u!114 &1133167721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133167717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Settings
+    _localeSets:
+    - language: 10
+      text: Settings
+    - language: 28
+      text: "Configura\xE7\xF5es"
 --- !u!1 &1151628286
 GameObject:
   m_ObjectHideFlags: 0
@@ -12289,6 +12457,20 @@ MonoBehaviour:
   image: {fileID: 1498507114}
   costContainer: {fileID: 2050944139}
   costLable: {fileID: 1747881713}
+  equipedStatusLocale:
+    _default: Equiped
+    _localeSets:
+    - language: 10
+      text: Equiped
+    - language: 28
+      text: Equipado
+  unEquipedStatusLocale:
+    _default: Unequiped
+    _localeSets:
+    - language: 10
+      text: Unequiped
+    - language: 28
+      text: Desequipado
   statusText: {fileID: 2055940334}
 --- !u!114 &1167381343
 MonoBehaviour:
@@ -12805,7 +12987,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2047039732}
   m_HandleRect: {fileID: 2047039731}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -14271,6 +14453,7 @@ GameObject:
   - component: {fileID: 1331862688}
   - component: {fileID: 1331862690}
   - component: {fileID: 1331862689}
+  - component: {fileID: 1331862691}
   m_Layer: 5
   m_Name: Title - Text (TMP)
   m_TagString: Untagged
@@ -14317,7 +14500,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Trophy
+  m_text: Shop
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6de085a7b3d95034c8bc559c9cb90105, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 7ab040e6c1b8a2c4f869a86fd9250df9, type: 2}
@@ -14394,6 +14577,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331862687}
   m_CullTransparentMesh: 1
+--- !u!114 &1331862691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331862687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Shop
+    _localeSets:
+    - language: 10
+      text: Shop
+    - language: 28
+      text: Comprar
 --- !u!1 &1332246494
 GameObject:
   m_ObjectHideFlags: 0
@@ -14405,6 +14607,7 @@ GameObject:
   - component: {fileID: 1332246495}
   - component: {fileID: 1332246497}
   - component: {fileID: 1332246496}
+  - component: {fileID: 1332246498}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -14481,9 +14684,9 @@ MonoBehaviour:
   m_fontSize: 60
   m_fontSizeBase: 60
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 60
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -14528,6 +14731,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1332246494}
   m_CullTransparentMesh: 1
+--- !u!114 &1332246498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332246494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Back
+    _localeSets:
+    - language: 10
+      text: Back
+    - language: 28
+      text: Voltar
 --- !u!1 &1362848950
 GameObject:
   m_ObjectHideFlags: 0
@@ -14647,6 +14869,7 @@ GameObject:
   - component: {fileID: 1367669173}
   - component: {fileID: 1367669175}
   - component: {fileID: 1367669174}
+  - component: {fileID: 1367669176}
   m_Layer: 5
   m_Name: Title - Text (TMP)
   m_TagString: Untagged
@@ -14723,9 +14946,9 @@ MonoBehaviour:
   m_fontSize: 70
   m_fontSizeBase: 70
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 70
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -14770,6 +14993,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367669172}
   m_CullTransparentMesh: 1
+--- !u!114 &1367669176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367669172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Back
+    _localeSets:
+    - language: 10
+      text: Back
+    - language: 28
+      text: Voltar
 --- !u!1 &1378897046
 GameObject:
   m_ObjectHideFlags: 0
@@ -14929,6 +15171,7 @@ GameObject:
   - component: {fileID: 1382493728}
   - component: {fileID: 1382493730}
   - component: {fileID: 1382493729}
+  - component: {fileID: 1382493731}
   m_Layer: 5
   m_Name: On - Text (TMP)
   m_TagString: Untagged
@@ -15005,9 +15248,9 @@ MonoBehaviour:
   m_fontSize: 96
   m_fontSizeBase: 96
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 96
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -15052,6 +15295,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382493727}
   m_CullTransparentMesh: 1
+--- !u!114 &1382493731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382493727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Sound On
+    _localeSets:
+    - language: 10
+      text: Sound On
+    - language: 28
+      text: Som ativado
 --- !u!1 &1401831147
 GameObject:
   m_ObjectHideFlags: 0
@@ -15063,6 +15325,7 @@ GameObject:
   - component: {fileID: 1401831148}
   - component: {fileID: 1401831150}
   - component: {fileID: 1401831149}
+  - component: {fileID: 1401831151}
   m_Layer: 5
   m_Name: Title - Text (TMP)
   m_TagString: Untagged
@@ -15139,9 +15402,9 @@ MonoBehaviour:
   m_fontSize: 70
   m_fontSizeBase: 70
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 70
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -15186,6 +15449,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401831147}
   m_CullTransparentMesh: 1
+--- !u!114 &1401831151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401831147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Next
+    _localeSets:
+    - language: 10
+      text: Next
+    - language: 28
+      text: "Pr\xF3ximo"
 --- !u!1 &1403163293
 GameObject:
   m_ObjectHideFlags: 0
@@ -18533,6 +18815,7 @@ GameObject:
   - component: {fileID: 1651967873}
   - component: {fileID: 1651967875}
   - component: {fileID: 1651967874}
+  - component: {fileID: 1651967876}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -18609,9 +18892,9 @@ MonoBehaviour:
   m_fontSize: 112
   m_fontSizeBase: 112
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 112
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -18656,6 +18939,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651967872}
   m_CullTransparentMesh: 1
+--- !u!114 &1651967876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651967872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Play
+    _localeSets:
+    - language: 10
+      text: Play
+    - language: 28
+      text: Jogar
 --- !u!1 &1663255860
 GameObject:
   m_ObjectHideFlags: 0
@@ -18667,6 +18969,7 @@ GameObject:
   - component: {fileID: 1663255861}
   - component: {fileID: 1663255863}
   - component: {fileID: 1663255862}
+  - component: {fileID: 1663255864}
   m_Layer: 5
   m_Name: Title - Text (TMP) (1)
   m_TagString: Untagged
@@ -18745,9 +19048,9 @@ MonoBehaviour:
   m_fontSize: 55
   m_fontSizeBase: 55
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 55
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -18792,6 +19095,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1663255860}
   m_CullTransparentMesh: 1
+--- !u!114 &1663255864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663255860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: 'Balls
+
+'
+    _localeSets:
+    - language: 10
+      text: Balls
+    - language: 28
+      text: Bolas
 --- !u!1 &1672393834
 GameObject:
   m_ObjectHideFlags: 0
@@ -19240,6 +19564,7 @@ GameObject:
   - component: {fileID: 1741904279}
   - component: {fileID: 1741904281}
   - component: {fileID: 1741904280}
+  - component: {fileID: 1741904282}
   m_Layer: 5
   m_Name: Title - Text (TMP)
   m_TagString: Untagged
@@ -19363,6 +19688,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741904278}
   m_CullTransparentMesh: 1
+--- !u!114 &1741904282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741904278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Trophy
+    _localeSets:
+    - language: 10
+      text: Trophy
+    - language: 28
+      text: "Trof\xE9u"
 --- !u!1 &1744091736
 GameObject:
   m_ObjectHideFlags: 0
@@ -20471,6 +20815,7 @@ GameObject:
   - component: {fileID: 1814516050}
   - component: {fileID: 1814516052}
   - component: {fileID: 1814516051}
+  - component: {fileID: 1814516053}
   m_Layer: 5
   m_Name: Off - Text (TMP)
   m_TagString: Untagged
@@ -20547,9 +20892,9 @@ MonoBehaviour:
   m_fontSize: 96
   m_fontSizeBase: 96
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 96
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -20594,6 +20939,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814516049}
   m_CullTransparentMesh: 1
+--- !u!114 &1814516053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814516049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Music Off
+    _localeSets:
+    - language: 10
+      text: Music Off
+    - language: 28
+      text: "M\xFAsica desligada"
 --- !u!1 &1824624433
 GameObject:
   m_ObjectHideFlags: 0
@@ -21223,6 +21587,7 @@ GameObject:
   - component: {fileID: 1885942427}
   - component: {fileID: 1885942429}
   - component: {fileID: 1885942428}
+  - component: {fileID: 1885942430}
   m_Layer: 5
   m_Name: Off - Text (TMP)
   m_TagString: Untagged
@@ -21299,9 +21664,9 @@ MonoBehaviour:
   m_fontSize: 96
   m_fontSizeBase: 96
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 96
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -21346,6 +21711,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885942426}
   m_CullTransparentMesh: 1
+--- !u!114 &1885942430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885942426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Sound Off
+    _localeSets:
+    - language: 10
+      text: Sound Off
+    - language: 28
+      text: Som desligado
 --- !u!1 &1898951217
 GameObject:
   m_ObjectHideFlags: 0
@@ -22029,6 +22413,20 @@ MonoBehaviour:
   image: {fileID: 93972043}
   costContainer: {fileID: 919594280}
   costLable: {fileID: 1254570416}
+  equipedStatusLocale:
+    _default: Equiped
+    _localeSets:
+    - language: 10
+      text: Equiped
+    - language: 28
+      text: Equipado
+  unEquipedStatusLocale:
+    _default: Unequiped
+    _localeSets:
+    - language: 10
+      text: Unequiped
+    - language: 28
+      text: Desequipado
   statusText: {fileID: 719532234}
 --- !u!1 &1996226006
 GameObject:
@@ -22562,6 +22960,7 @@ GameObject:
   - component: {fileID: 2043399298}
   - component: {fileID: 2043399297}
   - component: {fileID: 2043399299}
+  - component: {fileID: 2043399300}
   m_Layer: 5
   m_Name: Title Text (TMP)
   m_TagString: Untagged
@@ -22638,9 +23037,9 @@ MonoBehaviour:
   m_fontSize: 112
   m_fontSizeBase: 112
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 112
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -22706,6 +23105,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2043399300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043399295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Soccer Aim
+    _localeSets:
+    - language: 10
+      text: Soccer Aim
+    - language: 28
+      text: Mira de futebol
 --- !u!1 &2047039730
 GameObject:
   m_ObjectHideFlags: 0
@@ -23908,6 +24326,7 @@ GameObject:
   - component: {fileID: 2101096676}
   - component: {fileID: 2101096678}
   - component: {fileID: 2101096677}
+  - component: {fileID: 2101096679}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -23984,9 +24403,9 @@ MonoBehaviour:
   m_fontSize: 60
   m_fontSizeBase: 60
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 60
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -24031,6 +24450,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101096675}
   m_CullTransparentMesh: 1
+--- !u!114 &2101096679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101096675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bf29e3e89ae554ca22bc668cd263a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _locale:
+    _default: Back
+    _localeSets:
+    - language: 10
+      text: Back
+    - language: 28
+      text: Voltar
 --- !u!1 &2113059689
 GameObject:
   m_ObjectHideFlags: 0

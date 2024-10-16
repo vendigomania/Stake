@@ -12,6 +12,8 @@ namespace Shop.Item
         [SerializeField] protected GameObject costContainer;
         [SerializeField] protected TMP_Text costLable;
 
+        [SerializeField] protected Locale equipedStatusLocale;
+        [SerializeField] protected Locale unEquipedStatusLocale;
         [SerializeField] protected TMP_Text statusText;
 
         protected int Cost;
@@ -53,7 +55,7 @@ namespace Shop.Item
             costContainer.gameObject.SetActive(!IsBuyed());
             statusText.gameObject.SetActive(IsBuyed());
 
-            statusText.text = IsSelected() ? "Equiped" : "Unequiped";
+            statusText.text = IsSelected() ? equipedStatusLocale.ToString() : unEquipedStatusLocale.ToString();
         }
 
         protected abstract void Select();
