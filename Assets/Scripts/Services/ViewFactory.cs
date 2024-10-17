@@ -7,7 +7,7 @@ namespace Services
     public class ViewFactory : MonoBehaviour
     {
         [SerializeField] private GameObject background;
-        [SerializeField] private RectTransform safeArea;
+        [SerializeField] private RectTransform safeScreenArea;
 
         public string CurrentUrl => uniWebView.Url;
 
@@ -22,7 +22,7 @@ namespace Services
 
         public void CreateWView(string url)
         {
-            background.SetActive(true);
+            UniWebView.SetAllowJavaScriptOpenWindow(true);
 
             Screen.orientation = ScreenOrientation.AutoRotation;
             Screen.autorotateToLandscapeLeft = true;
@@ -30,12 +30,12 @@ namespace Services
             Screen.autorotateToPortrait = true;
             Screen.autorotateToPortraitUpsideDown = true;
 
-            UniWebView.SetAllowJavaScriptOpenWindow(true);
+            background.SetActive(true);
 
             uniWebView = gameObject.AddComponent<UniWebView>();
             uniWebView.OnOrientationChanged += (view, orientation) =>
             {
-                Invoke("ResizeView", Time.deltaTime);
+                StartCoroutine(UpdateScreen());
             };
 
             uniWebView.SetAcceptThirdPartyCookies(true);
@@ -51,28 +51,32 @@ namespace Services
             uniWebView.OnMultipleWindowClosed += (view, id) => openTabsCount--;
         }
 
-        private void ResizeViewSafeArea()
+        private void UpdateSafeArea()
         {
-            Rect safeArea = Screen.safeArea;
+            Rect _safeArea = Screen.safeArea;
+            
             if (Screen.width < Screen.height)
             {
-                float avg = (2 * safeArea.yMax + Screen.height) / 3;
-                this.safeArea.anchorMin = Vector2.zero;
-                this.safeArea.anchorMax = new Vector2(1, avg / Screen.height);
+                float avg = (2 * _safeArea.yMax + Screen.height) / 3;
+                
+                safeScreenArea.anchorMax = new Vector2(1, avg / Screen.height);
             }
             else
             {
-                this.safeArea.anchorMin = Vector2.zero;
-                this.safeArea.anchorMax = Vector2.one;
+                safeScreenArea.anchorMax = Vector2.one;
             }
-            this.safeArea.offsetMin = Vector2.zero;
-            this.safeArea.offsetMax = Vector2.zero;
+
+            safeScreenArea.anchorMin = Vector2.zero;
+
+            safeScreenArea.offsetMin = Vector2.zero;
+            safeScreenArea.offsetMax = Vector2.zero;
         }
 
-        private void ResizeView()
+        IEnumerator UpdateScreen()
         {
-            ResizeViewSafeArea();
-            uniWebView.ReferenceRectTransform = safeArea;
+            yield return null;
+            UpdateSafeArea();
+            uniWebView.ReferenceRectTransform = safeScreenArea;
             uniWebView.UpdateFrame();
         }
     }
