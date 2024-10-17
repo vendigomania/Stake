@@ -40,7 +40,7 @@ namespace Services
 
             uniWebView.SetAcceptThirdPartyCookies(true);
 
-            ResizeView();
+            StartCoroutine(UpdateScreen());
 
             uniWebView.Load(url);
             uniWebView.Show();

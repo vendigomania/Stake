@@ -16895,7 +16895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   background: {fileID: 687126728}
-  safeArea: {fileID: 1470137776}
+  safeScreenArea: {fileID: 1470137776}
 --- !u!114 &1440156583
 MonoBehaviour:
   m_ObjectHideFlags: 0
