@@ -8562,7 +8562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &764936197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8578,7 +8578,7 @@ MonoBehaviour:
   acceptLoader: {fileID: 1440156581}
   declineLoader: {fileID: 1409421919}
   serviceAddress: https://yandex.com/time/sync.json?geo=213
-  dateValues: e80700000a00000014000000
+  dateValues: e80700000a00000017000000
 --- !u!4 &764936198
 Transform:
   m_ObjectHideFlags: 0
@@ -16881,7 +16881,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1440156582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16908,10 +16908,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ca2e17be41255418ed1bb97ccf5c8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Scheme: https://{0}/session/v1/{1}?device_model={2}
-  m_DomainName: glowingstick.site
-  m_ApiKey: 904c6b6c-0d77-47f2-a270-a4587b84917b
-  m_OSScheme: https://app.njatrack.tech/technicalPostback/v1.0/postClientParams/{0}$"?onesignal_player_id={1}
+  m_Scheme: bEPGO52vuqUTkwLuRUbfhgvAowgSW1m5z0lXrz7MC7WMB+rJ5lll3fHpAOmcGO8dfnG6tGLr3EZSdEgAW+1FJQNLsMVolFyMkMjRqaceibc=
+  m_DomainName: wcgqfWIGda+ay1QYkVZjRrPKHuzXRKoMrkOKUajZ3atYNby+iQcyeAeXQqNSimXTUIG3hHIUpqw7AF36B53VLg==
+  m_ApiKey: +Z2w7Fkzv+8c3qGIvXHqw1sYLj4NZl6i27Z2HdpxufeeRikaFxE0DEyaagzhrFZ7TNGMK/kYa4V+IytFigUHU3uSMQ5yqIxwHsacjKESI8M=
+  m_OSScheme: 9/nk3bZYaq/MyvbTmDWNbUfISKoRU/0rFYyD4KyYKE4i0rCRkIRIfdIdt8iR7fPol8WFYEVDkQdWBzspeSMOUb7EQuPEVf5i2hxqClqGyENV7NU1nTQLWu2Z4tgyyDhzl0QMLMCtz7nbtCEVFo+8sxI0wEpQpRzJbl5F2bd6L1s=
   bundle: com.cleatspin.socceraim
   root: {fileID: 1409421919}
   logLable: {fileID: 471241871}
